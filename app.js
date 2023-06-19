@@ -25,4 +25,4 @@ HelloController(app)
 TuitsController(app);
 UserController(app)
 AuthController(app);
-app.listen(process.env.PORT || 4000)
+app.listen(process.env.PORT || 4000);
