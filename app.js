@@ -30,4 +30,3 @@ TuitsController(app);
 UserController(app)
 AuthController(app);
 app.listen(process.env.PORT || 4000)
-mongoose.connect("mongodb://127.0.0.1:27017/tuiter");
